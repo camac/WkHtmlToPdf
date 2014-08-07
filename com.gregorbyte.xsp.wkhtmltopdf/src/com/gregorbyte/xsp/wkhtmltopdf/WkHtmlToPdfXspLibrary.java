@@ -11,6 +11,11 @@ public class WkHtmlToPdfXspLibrary extends AbstractXspLibrary {
 		return LIBRARY_ID;
 	}
 
+	@Override
+	public boolean isGlobalScope() {
+		return true;
+	}
+
 	
 	
 }
