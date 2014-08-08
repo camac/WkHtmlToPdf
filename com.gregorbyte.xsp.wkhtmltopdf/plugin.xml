@@ -4,7 +4,7 @@
    <extension
          point="com.ibm.commons.Extension">
       <service
-            class="com.gregorbyte.xsp.wkhtmltopdf.WkHtmlToPdfXspLibrary"
+            class="com.gregorbyte.xsp.wkhtmltopdf.library.WkHtmlToPdfXspLibrary"
             type="com.ibm.xsp.Library">
       </service>
    </extension>

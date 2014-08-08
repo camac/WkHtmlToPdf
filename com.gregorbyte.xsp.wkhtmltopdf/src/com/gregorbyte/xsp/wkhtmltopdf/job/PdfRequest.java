@@ -1,4 +1,4 @@
-package com.gregorbyte.xsp.wkhtmltopdf;
+package com.gregorbyte.xsp.wkhtmltopdf.job;
 
 public class PdfRequest {
 
@@ -8,18 +8,22 @@ public class PdfRequest {
 	
 	private String url;
 	
-	public PdfRequest(String url) {
+	public PdfRequest(String viewId, String url) {
 		
 		// Steal the sessionId or ltpaToken
 		
 		// Figure out the view id
-		this.viewId = "temp";		
+		this.viewId = viewId;
 		this.url = url;
 		
 	}
 	
 	public String getUrl() {
 		return url;
+	}
+	
+	public String getViewId() {
+		return viewId;
 	}
 	
 }

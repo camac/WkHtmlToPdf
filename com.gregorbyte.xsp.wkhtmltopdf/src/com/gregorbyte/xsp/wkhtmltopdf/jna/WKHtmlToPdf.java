@@ -1,4 +1,4 @@
-package com.gregorbyte.xsp.wkhtmltopdf;
+package com.gregorbyte.xsp.wkhtmltopdf.jna;
 
 import java.util.Arrays;
 import java.util.List;

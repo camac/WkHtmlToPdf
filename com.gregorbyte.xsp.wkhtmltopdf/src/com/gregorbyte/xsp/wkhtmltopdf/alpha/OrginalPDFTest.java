@@ -1,4 +1,4 @@
-package com.gregorbyte.xsp.wkhtmltopdf;
+package com.gregorbyte.xsp.wkhtmltopdf.alpha;
 
 import java.io.BufferedWriter;
 import java.io.File;

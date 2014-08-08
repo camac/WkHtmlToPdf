@@ -14,7 +14,7 @@
  * permissions and limitations under the License.
  */
 
-package com.gregorbyte.xsp.wkhtmltopdf;
+package com.gregorbyte.xsp.wkhtmltopdf.taj;
 
 import java.security.AccessController;
 import java.security.PrivilegedAction;

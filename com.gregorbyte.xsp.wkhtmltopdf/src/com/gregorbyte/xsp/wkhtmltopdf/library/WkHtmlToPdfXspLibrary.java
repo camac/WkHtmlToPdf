@@ -1,4 +1,4 @@
-package com.gregorbyte.xsp.wkhtmltopdf;
+package com.gregorbyte.xsp.wkhtmltopdf.library;
 
 import com.ibm.xsp.library.AbstractXspLibrary;
 
